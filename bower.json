@@ -1,0 +1,25 @@
+{
+	"name": "jquery-mask-password",
+	"version": "0.1.0",
+	"homepage": "http://github.com/MathieuLoutre/jquery-mask-password/",
+	"authors": [
+		"Mathieu Triay <mathieu.triay@gmail.com>"
+	],
+	"description": "Hides the content of a text field after a given delay",
+	"main": ["dist/jquery.mask-password.min.js", "dist/jquery.mask-password.js"],
+	"ignore": [
+		"src",
+		".*",
+		"Gruntfile.js",
+		"example"
+	],
+	"keywords": [
+		"jquery",
+		"plugin",
+		"jquery-plugin",
+		"password",
+		"field",
+		"text"
+	],
+	"license": "MIT"
+}
