@@ -7,5 +7,6 @@ do ($) ->
 
 				$(@).data 'show', setTimeout =>
 					$(@).attr('type': 'password')
-					console.log("whoo")
 				, delay
+
+	$.fn.destroyMaskPassword = -> clearTimeout($(@).data('show'))

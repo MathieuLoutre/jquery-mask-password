@@ -8,7 +8,7 @@
  */
 (function() {
   (function($) {
-    return $.fn.maskPassword = function(delay, callback) {
+    $.fn.maskPassword = function(delay) {
       if (delay == null) {
         delay = 1000;
       }
@@ -21,14 +21,16 @@
           });
           return $(this).data('show', setTimeout((function(_this) {
             return function() {
-              $(_this).attr({
+              return $(_this).attr({
                 'type': 'password'
               });
-              return console.log("whoo");
             };
           })(this), delay));
         }
       });
+    };
+    return $.fn.destroyMaskPassword = function() {
+      return clearTimeout($(this).data('show'));
     };
   })($);
 

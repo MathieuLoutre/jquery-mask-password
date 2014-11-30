@@ -26,4 +26,6 @@ Or just by downloading the [tarball](https://github.com/MathieuLoutre/jquery-mas
 
 ## Changelog
 
+- 0.1.1 - Remove console.log
+
 - 0.1.0 - First release
