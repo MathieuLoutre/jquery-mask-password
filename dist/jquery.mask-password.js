@@ -1,5 +1,5 @@
 /*
- *  jQuery Password Masker - v0.2.1
+ *  jQuery Password Masker - v0.2.2
  *  Hides the content of a text field after a given delay
  *  http://github.com/MathieuLoutre/jquery-mask-password/
  *
@@ -20,7 +20,7 @@
             $(this).attr({
               'type': 'text'
             });
-            len = $(this).val().length();
+            len = $(this).val().length;
             this.setSelectionRange(len, len);
           }
           return $(this).data('show', setTimeout((function(_this) {
@@ -28,7 +28,7 @@
               $(_this).attr({
                 'type': 'password'
               });
-              len = $(_this).val().length();
+              len = $(_this).val().length;
               return _this.setSelectionRange(len, len);
             };
           })(this), delay));

@@ -26,7 +26,7 @@ Or just by downloading the [tarball](https://github.com/MathieuLoutre/jquery-mas
 
 ## Changelog
 
-- 0.2.1 - Use `setSelectionRange` to not lose focus in FF
+- 0.2.2 - Use `setSelectionRange` to not lose focus in FF
 
 - 0.1.1 - Remove console.log
 

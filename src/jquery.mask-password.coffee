@@ -6,12 +6,12 @@ do ($) ->
 
 				if $(@).attr('type') is 'password'
 					$(@).attr('type': 'text')
-					len = $(@).val().length()
+					len = $(@).val().length
 					@setSelectionRange(len, len)
 
 				$(@).data 'show', setTimeout =>
 					$(@).attr('type': 'password')
-					len = $(@).val().length()
+					len = $(@).val().length
 					@setSelectionRange(len, len)
 				, delay
 
