@@ -1,5 +1,5 @@
 /*
- *  jQuery Password Masker - v0.2.0
+ *  jQuery Password Masker - v0.2.1
  *  Hides the content of a text field after a given delay
  *  http://github.com/MathieuLoutre/jquery-mask-password/
  *
